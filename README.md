@@ -39,13 +39,7 @@ The primary goal of this project is to create a deep learning model that can int
 
 ```
 
-├── flickr8k/
-│   ├── Images/              # Contains image files
-│   ├── captions.txt         # File with image-caption pairs
-├── features/                # Stored VGG16 features
-├── model/                   # Trained model weights
-├── tokenizer/               # Tokenizer pickle files
-├── Image\_Captioning.ipynb   # Main notebook
+├── Image_caption.ipynb   # Main notebook
 └── README.md
 
 ````
@@ -59,22 +53,6 @@ The primary goal of this project is to create a deep learning model that can int
 git clone https://github.com/your-username/image-captioning-vgg16-lstm.git
 cd image-captioning-vgg16-lstm
 ````
-
-2. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-3. **Prepare the dataset**
-
-* Download the Flickr8K dataset and place images inside `flickr8k/Images/`.
-* Make sure `captions.txt` is in the root folder.
-
-4. **Run the notebook**
-   Open and run `Image_Captioning.ipynb` in Jupyter Notebook or Google Colab.
-
----
 
 ## 📊 Evaluation
 
